@@ -1,0 +1,16 @@
+/* Block-owned settings layout, scoped to this release. */
+[data-block-release="vector_store@0.1.0"] .owned-modal { width: 820px; }
+[data-block-release="vector_store@0.1.0"] .owned-body { flex: 1 1 auto; min-height: 0; overflow: auto; padding: 20px; }
+[data-block-release="vector_store@0.1.0"] .owned-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; }
+[data-block-release="vector_store@0.1.0"] .owned-advanced { border: 1px solid var(--line, #dbe3ec); border-radius: 12px; padding: 12px; margin: 12px 0; min-width: 0; }
+[data-block-release="vector_store@0.1.0"] .owned-advanced summary { cursor: pointer; font-weight: 600; padding: 4px; }
+[data-block-release="vector_store@0.1.0"] .owned-advanced[open] > summary { margin-bottom: 14px; }
+[data-block-release="vector_store@0.1.0"] .owned-footer { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-top: 1px solid var(--line, #dbe3ec); }
+[data-block-release="vector_store@0.1.0"] .owned-footer p { flex: 1 1 220px; margin: 0; }
+[data-block-release="vector_store@0.1.0"] .field-hint { color: var(--muted, #657186); font-size: 12px; line-height: 1.5; }
+[data-block-release="vector_store@0.1.0"] [data-properties-surface="inspector"] .inspector-actions { position: sticky; bottom: 0; z-index: 3; background: var(--panel, #fff); padding: 12px 0; }
+[data-block-release="vector_store@0.1.0"] .owned-form-status { white-space: normal; overflow-wrap: anywhere; }
+@media (max-width: 700px) {
+  [data-block-release="vector_store@0.1.0"] .owned-body { padding: 14px; }
+  [data-block-release="vector_store@0.1.0"] .owned-footer { flex-wrap: wrap; gap: 10px; padding: 10px 12px; }
+}

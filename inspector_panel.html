@@ -1,0 +1,12 @@
+<div class="cw-block-inspector" data-properties-surface="inspector" data-block-inspector-root data-node-id="{{ node_id }}" data-node-type="{{ node_type }}">
+  <div class="inspector-selection {{ summary_hidden }}"><div class="inspector-node-card"><div class="inspector-node-icon">VS</div><div class="inspector-node-copy"><strong>{{ node_title }}</strong><span data-i18n="block.vector_store.role">Semantic search</span></div></div>
+    <div class="inspector-tabs"><button class="inspector-tab {{ general_active }}" data-inspector-tab="general" type="button" data-i18n="ui.block_kit.general">General</button><button class="inspector-tab {{ ports_active }}" data-inspector-tab="ports" type="button" data-i18n="ui.block_kit.ports">Ports</button></div>
+  </div>
+  <div class="inspector-view {{ general_hidden }}" data-inspector-panel-tab="general">
+    <div class="field-group {{ title_hidden }}"><label for="{{ node_id }}-inspector-name" data-i18n="ui.block_kit.node_name">Node name</label><input id="{{ node_id }}-inspector-name" data-block-title-field type="text" value="{{ node_title }}"></div>
+    {{ settings }}
+    <p class="field-hint" data-i18n="block.vector_store.apply_hint">Changes remain local until Apply. Restart a loaded Run to use new settings.</p>
+    <div class="inspector-actions"><button class="solid-btn" data-owned-apply data-block-inspector-apply data-block-mutation-control type="button" disabled data-i18n="ui.block_kit.apply">Apply</button></div>
+  </div>
+  <div class="inspector-view {{ ports_hidden }}" data-inspector-panel-tab="ports"><section class="ports-editor-section"><h3 data-i18n="ui.block_kit.inputs">Inputs</h3><div class="ports-editor-list">{{ inputs_html }}</div></section><section class="ports-editor-section"><h3 data-i18n="ui.block_kit.outputs">Outputs</h3><div class="ports-editor-list">{{ outputs_html }}</div></section></div>
+</div>

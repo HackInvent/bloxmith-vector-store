@@ -1,0 +1,4 @@
+# Optional: numpy speeds up similarity search on large collections.
+# The block imports it lazily; without it a pure-Python scan serves collections up to
+# 8,000,000 vector values per query (items x dimension) and larger searches fail with a "dependency" error.
+numpy>=1.22

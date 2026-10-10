@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "kind": "vector_store",
+  "block_version": "0.1.0",
+  "maintained_by": "HackInvent",
+  "source": {
+    "algorithm": "block-source-v1",
+    "sha256": "6f57d3711e9cef0ad9d155a5efe58c466549ddec78774968ad130c9742d1d6f3"
+  },
+  "bloxsmith_compatibility": [
+    "1.0.9"
+  ],
+  "tested_with_bloxsmith": "1.0.9",
+  "validations": [
+    {
+      "bloxsmith_version": "1.0.9",
+      "framework_commit": "f1a87f6369d2acfb8be41d23ea849384cd461c86",
+      "framework_source_sha256": "66e36a13fd9a23a0a0576ec81552d6e479671db6db9b8692cc7486c5aac4f3b8",
+      "tested_at": "2026-10-10T19:57:17.302885+00:00",
+      "status": "passed",
+      "installation_mode": "bundled",
+      "suite_paths": [
+        "tests/F5.01_vector_store.py",
+        "tests/F5.02_vector_store_runtime.py",
+        "tests/F8.01_vector_store_ui.py"
+      ],
+      "suite_count": 3,
+      "report_sha256": "408950684c5c69da7f69e395694da500fc185295471132b529bdae5b85e85101"
+    }
+  ]
+}

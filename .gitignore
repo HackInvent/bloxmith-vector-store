@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+
+# Keep private configuration and disposable runtime/test data out of this package.
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+venv/
+.DS_Store
+Thumbs.db
+/logs/
+/user/
+/projects/
+/runs/
+/session/
+/exports/
+/tests/framework/
+/tests/results/

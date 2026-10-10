@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+     fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+     stroke-linejoin="round" role="img" aria-label="Vector Store">
+  <title>Vector Store</title>
+  <path d="M9.8 10.1 7 7.7M14.5 10.6l2.4-1.3M11.4 14.8l-.6 2.7"/>
+  <circle cx="12" cy="12" r="2.1" fill="currentColor" stroke="none"/>
+  <circle cx="5" cy="6" r="1.9"/>
+  <circle cx="19.2" cy="8" r="1.9"/>
+  <circle cx="10.3" cy="20" r="1.9"/>
+</svg>

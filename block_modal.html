@@ -1,0 +1,9 @@
+<div class="modal-panel owned-modal" data-properties-surface="modal" role="dialog" aria-modal="true" aria-labelledby="{{ node_id }}-modal-title" data-generic-block-modal-root data-block-runtime-refresh="autonomous" data-node-id="{{ node_id }}" data-node-kind="vector_store">
+  <header class="modal-header"><div><span class="panel-kicker" data-i18n="block.vector_store.role">Semantic search</span><h2 id="{{ node_id }}-modal-title">{{ node_title }}</h2></div><button class="ghost-btn" data-close-block-modal type="button" data-i18n="ui.block_kit.close">Close</button></header>
+  <div class="owned-body">
+    <div class="field-group"><label for="{{ node_id }}-modal-name" data-i18n="ui.block_kit.node_name">Node name</label><input id="{{ node_id }}-modal-name" data-block-title-field type="text" value="{{ node_title }}"></div>
+    {{ settings }}
+    <details class="owned-advanced"><summary data-i18n="block.vector_store.last_state">Last result</summary>{{ runtime_html }}</details>
+  </div>
+  <footer class="owned-footer"><p class="field-hint" data-i18n="block.vector_store.apply_hint">Changes remain local until Apply. Restart a loaded Run to use new settings.</p><div class="modal-actions"><button class="ghost-btn" data-close-block-modal type="button" data-i18n="ui.block_kit.cancel">Cancel</button><button class="solid-btn" data-owned-apply data-block-mutation-control type="button" disabled data-i18n="ui.block_kit.apply">Apply</button></div></footer>
+</div>
